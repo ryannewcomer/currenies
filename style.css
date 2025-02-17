@@ -47,15 +47,25 @@ nav ul li {
 
 nav {
   height: 58px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: wheat;
 }
 
 nav ul li a {
   display: block;
+  text-decoration: none;
   padding: 5px;
-  background-color: wheat;
 }
 
 nav ul li a:hover {
   background-color: #333;
   color: #fff;
+  transition: 0.2s;
+}
+
+.active {
+  background-color: #263128;
+  color: #5ac888;
 }
