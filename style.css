@@ -36,17 +36,18 @@ main {}
 /* nav */
 nav ul {
   list-style-type: none;
+  width: 100%;
 }
 
 nav ul li {
   float: left;
   width: 100px;
-  margin: 0;
+  margin: 0px;
+  height: 58px;
   text-align: center;
 }
 
 nav {
-  height: 58px;
   margin: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -56,7 +57,9 @@ nav {
 nav ul li a {
   display: block;
   text-decoration: none;
+  margin: 0px;
   padding: 5px;
+  height: 100%;
 }
 
 nav ul li a:hover {
