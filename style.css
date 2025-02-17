@@ -48,9 +48,9 @@ nav ul li {
 }
 
 nav {
-  margin: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  height: 58px;
+  padding: 0px;
+  margin: 0px;
   background-color: wheat;
 }
 
