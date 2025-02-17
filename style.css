@@ -32,6 +32,7 @@ section {
 
 p,
 a {
+  display: inline;
   color: #56c88d;
 }
 
@@ -68,6 +69,7 @@ nav ul li a:hover {
   background-color: #333;
   color: #fff;
   transition: 0.2s;
+  height: 48px;
 }
 
 .active {
@@ -104,8 +106,4 @@ hr {
   width: 95%;
   background-color: #53614c;
   border: none;
-}
-
-p {
-  display: inline;
 }
