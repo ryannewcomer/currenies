@@ -1,6 +1,11 @@
 html {
   height: 100%;
-  width: 100%;
+  width: 800px;
+}
+
+* {
+  margin: auto;
+  padding: 0;
 }
 
 body {
@@ -36,13 +41,13 @@ main {}
 /* nav */
 nav ul {
   list-style-type: none;
-  width: 100%;
+  display: block;
+  margin: auto;
 }
 
 nav ul li {
   float: left;
   width: 100px;
-  margin: 0px;
   height: 58px;
   text-align: center;
 }
@@ -50,16 +55,14 @@ nav ul li {
 nav {
   height: 58px;
   padding: 0px;
-  margin: 0px;
+  width: 100%;
   background-color: wheat;
 }
 
 nav ul li a {
   display: block;
   text-decoration: none;
-  margin: 0px;
   padding: 5px;
-  height: 100%;
 }
 
 nav ul li a:hover {
@@ -71,4 +74,12 @@ nav ul li a:hover {
 .active {
   background-color: #263128;
   color: #5ac888;
+}
+
+#banknotes-world {
+  width: 80%;
+  display: block;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
