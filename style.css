@@ -8,6 +8,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 h1 {
@@ -15,29 +16,46 @@ h1 {
   color: #333;
 }
 
-div,
 section {
   background-color: #6d8264;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
+  clear: both;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-p, a{
+p,
+a {
   color: #56c88d;
-  ;
 }
 
-ul,
-li {
-  list-style-type: circle;
-  padding: 0;
-  color: #666;
-  margin-left: 20px;
+main {}
+
+/* nav */
+nav ul {
+  list-style-type: none;
 }
 
-li {
-  margin-bottom: 15px;
+nav ul li {
+  float: left;
+  width: 100px;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  height: 58px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 5px;
+  background-color: wheat;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
 }
