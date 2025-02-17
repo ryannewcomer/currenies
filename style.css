@@ -17,7 +17,7 @@ h1 {
 
 div,
 section {
-  background-color: #357427;
+  background-color: #6d8264;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
@@ -25,6 +25,19 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-p {
+p, a{
+  color: #56c88d;
+  ;
+}
+
+ul,
+li {
+  list-style-type: circle;
+  padding: 0;
   color: #666;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 15px;
 }
