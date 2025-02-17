@@ -27,7 +27,6 @@ section {
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
-  clear: both;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -82,4 +81,30 @@ nav ul li a:hover {
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#uk {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.red {
+  color: #c8102e;
+}
+
+hr {
+  height: 3px;
+  width: 95%;
+  background-color: #53614c;
+  border: none;
+}
+
+#brit p {
+  display: inline;
 }
