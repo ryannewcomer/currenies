@@ -6,6 +6,7 @@ html {
 * {
   margin: auto;
   padding: 0;
+  transition: 0.2s;
 }
 
 body {
@@ -62,13 +63,13 @@ nav {
 nav ul li a {
   display: block;
   text-decoration: none;
+  height: 100%;
   padding: 5px;
 }
 
 nav ul li a:hover {
   background-color: #333;
   color: #fff;
-  transition: 0.2s;
   height: 48px;
 }
 
@@ -106,4 +107,29 @@ hr {
   width: 95%;
   background-color: #53614c;
   border: none;
+}
+
+.smallFlags {
+  height: 69px;
+  margin-right: 19px;
+  display: inline;
+  float: left;
+}
+
+.maps {
+  width: 635px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#indexFlags {
+  display: block;
+}
+
+#ukSmall,
+#usSmall,
+#lebanonSmall,
+#kuwaitSmall,
+#euSmall {
+  display: none;
 }
